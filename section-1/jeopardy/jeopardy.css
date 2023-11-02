@@ -1,0 +1,76 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+th,
+td {
+  border: 1px solid white;
+}
+
+table,
+th,
+td {
+  background-color: #060ce9;
+}
+
+#jeopardy th,
+#jeopardy td{
+  border: solid 2px black;
+  width: 12em;
+  padding: 1em;
+}
+
+th {
+ text-transform: uppercase;
+ font-weight: bold; 
+ height: 4em;
+}
+
+td {
+  height: 10em;
+}
+
+td:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.2);
+}
+
+table {
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+
+@media (max-width: 600px) {
+  table {
+    font-size: .6rem;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  background: #222;
+  color: white;
+  font-size: .8rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  background: linear-gradient(180deg, #2e2e3a 0%, #0c0c2c 100%);
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+#restart {
+  background-color: yellow;
+  border-radius: .5rem;
+  width: 30%;
+  place-self: center;
+  font-size: 1.5rem;
+}
+#restart:hover {
+  background-color: white;
+  cursor: pointer;
+}
